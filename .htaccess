@@ -1,0 +1,7 @@
+# BLOQUEAR ATAQUES DE XML-RPC #
+# BLOCK XML-RPC ATTACKS #
+
+<files xmlrpc.php>
+Order deny,allow
+Deny from all
+</files>
